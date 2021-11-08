@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.129);
+    font-size: .75rem;
+    padding: .5rem 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.367);
+}
